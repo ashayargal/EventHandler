@@ -85,4 +85,11 @@ public class Event {
 		this.startTimeout = timeoutTimestamp.getTime();
 
 	}
+	
+	/**
+	 * @return
+	 */
+	public boolean getHandlerStatus() {
+		return this.active;
+	}
 }

@@ -16,6 +16,7 @@ public class MongoDBConn {
 
 	MongoCollection<Document> collection = null;
 	final static Logger logger = Logger.getLogger(MongoDBConn.class);
+	public boolean activeConn = false;
 
 	public void createConnection() {
 
@@ -27,10 +28,11 @@ public class MongoDBConn {
 			MongoClient mongo = new MongoClient(config.getProperty("dbURL"),
 					Integer.parseInt(config.getProperty("dbPort")));
 
-			logger.debug("Connected to the database successfully");
-
 			// Accessing the database
 			MongoDatabase database = mongo.getDatabase(config.getProperty("database"));
+			
+			this.activeConn = true;
+			logger.debug("Connected to the database successfully");
 
 			// Retrieving a collection
 			collection = database.getCollection(config.getProperty("collection"));

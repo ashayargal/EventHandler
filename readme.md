@@ -20,3 +20,9 @@ if its timestamp is closer to current timestamp than the specified time window, 
 
 one other approach could be to maintain a queue in the server and check with the previous 10th event.
 This would make the program easier and faster but might make it prone to failure.
+
+### testing
+testing the storing of events can be turned on/off by changing the "testTimeout" propert in Application.properties
+```
+testTimeout = false
+```
