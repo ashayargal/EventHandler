@@ -1,0 +1,36 @@
+2018-04-18 07:38:58 DEBUG MongoDBConn:29 - Connected to the database successfully
+2018-04-18 07:38:58 DEBUG MongoDBConn:37 - Collection Events selected successfully
+2018-04-18 07:38:58 DEBUG Event:63 - Document inserted successfully
+2018-04-18 07:39:00 DEBUG Event:63 - Document inserted successfully
+2018-04-18 07:39:01 DEBUG Event:63 - Document inserted successfully
+2018-04-18 07:39:03 DEBUG Event:63 - Document inserted successfully
+2018-04-18 07:39:04 DEBUG Event:63 - Document inserted successfully
+2018-04-18 07:39:05 ERROR Event:54 - Max event limit reached.
+2018-04-18 07:39:05 ERROR Event:70 - Not registering events for next 5000 ms.
+2018-04-18 07:39:07 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:09 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:13 ERROR Event:54 - Max event limit reached.
+2018-04-18 07:39:13 ERROR Event:70 - Not registering events for next 5000 ms.
+2018-04-18 07:39:21 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:22 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:23 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:24 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:25 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:27 ERROR Event:54 - Max event limit reached.
+2018-04-18 07:39:27 ERROR Event:70 - Not registering events for next 5000 ms.
+2018-04-18 07:39:28 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:29 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:30 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:31 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:32 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:33 ERROR Event:54 - Max event limit reached.
+2018-04-18 07:39:33 ERROR Event:70 - Not registering events for next 5000 ms.
+2018-04-18 07:39:40 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:41 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:42 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:42 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:42 DEBUG Event:52 - Document inserted successfully
+2018-04-18 07:39:43 ERROR Event:54 - Max event limit reached.
+2018-04-18 07:39:43 ERROR Event:70 - Not registering events for next 5000 ms.
+2018-04-18 07:39:44 INFO  Event:36 - Event handler in timeout state
+2018-04-18 07:39:45 INFO  Event:36 - Event handler in timeout state
